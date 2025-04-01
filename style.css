@@ -1,0 +1,56 @@
+body {
+background: url(https://cdn.discordapp.com/attachments/1341382385282846811/1356611807925502023/ChatGPT_Image_1_._2025_._15_50_45.png?ex=67ed32b3&is=67ebe133&hm=be59b2560f3d3eeac91eb5e3eaf3dc934c360dbad1f255230f13937f97e84bc7&) no-repeat center center fixed;
+background-size: cover;
+  font-family: 'Cinzel', serif;
+  color: #fff6d5;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.75);
+  padding: 40px;
+  border-radius: 20px;
+  border: 2px solid #ffd700;
+  box-shadow: 0 0 20px #ffd700;
+  display: inline-block;
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 36px;
+  color: #ffe28a;
+  text-shadow: 2px 2px 5px #000;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.mana-button {
+  background-color: #ffd700;
+  color: #1e1b2e;
+  padding: 14px 28px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-family: 'Cinzel', serif;
+  box-shadow: 0 0 15px #fff5c3;
+  transition: transform 0.3s ease;
+}
+
+.mana-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px #fff3a8;
+}
+
+#result {
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fffecf;
+  text-shadow: 1px 1px 4px #000;
+}
